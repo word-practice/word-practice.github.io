@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*font-family: "Mochiy Pop One", sans-serif;*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #292727;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+.header{
+    background-image: url(IMAGENES/pngtree-3d-rendering-of-technology-and-website-development-picture-image_4044017.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+/*logo*/
+.logo{
+    font-size: 70px;
+    color:rgb(2, 28, 100);
+    font-weight: 800;
+    text-transform: uppercase;
+ 
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 10px;
+    color:rgb(38, 0, 255);
+    display: block;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.menu .navbar ul li a:hover{
+    color:rgba(255, 0, 0, 0.637);
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+/*titulos principales*/
+.header-txt h1,spam, h3{
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "Mochiy Pop One", sans-serif;
+    color:brown;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+.header-txt spam{
+    font-size: 20px;
+}
+/*texto*/
+.header-txt p{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 80px;
+    margin: 25px 0;
+    text-align: center;
+    
+}
+/*texto*/
+.hearder-dir p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 80px;
+    margin: 12px 0;
+    text-align: center;
+    
+}
+
+/*informe*/
+.btn-1{
+    display: inline-block;
+    padding: 9px 18px;
+    background-color: #d82e37;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: "Mochiy Pop One", sans-serif;
+    margin: 5px 0;
+    border: 0;
+    
+}
+
+/*titulo text*/
+.header-txt1 h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "Mochiy Pop One", sans-serif;
+    color:brown;
+    margin-bottom: 10px;    
+}
+/*text*/
+.header-txt1 p{
+    font-size: 18px;
+    color: rgb(228, 220, 220);
+    padding: 0 20px;
+    margin: 10px 0;
+    text-align: justify;
+}
+.btn-1:hover{
+    background-color: hsl(0, 0%, 15%);
+}
+/*diseño imagenes*/
+.alinear_flex{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    max-width: 30%;
+    float: left;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.footer h2{
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "Mochiy Pop One", sans-serif;
+    color:brown;
+}
+/*PAGINA 2*/
+.header-txt2 h4{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    color:rgb(255, 123, 0);
+    margin-bottom: 10px;    
+}
+
+.header-txt2 h5{
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Nerko One", cursive;
+    color:rgb(255, 0, 0);
+    margin-bottom: 10px;    
+}
+
+.img1{
+    max-width: 33%;
+    float: left;
+    border: 2px solid #4b0f0f;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.header-txt2 p{
+    font-size: 25px;
+    color: rgb(167, 165, 165);
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.header1{
+    background-image: url(IMAGENES/pexels-francesco-ungaro-1525041.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img3{
+    width: 50%;
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+.card{
+    text-align: center;
+    /*box-shadow: rgba(252, 251, 251, 0.35) 0px 5px 15px;*/
+    border-radius: 15px;
+}
+
+.card li{
+    font-size: 20px;
+    font-family: "Nerko One", cursive;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+/*TERCERA PAGINA*/
+.header2{
+    background-image: url(IMAGENES/vincenzo-inzone-w7QQHHSjySE-unsplash.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10cap;
+    display: flex;
+    align-items: center;
+}
+/*TITULO*/
+.header-txt3 h1{
+    font-size: 30px;
+    color: #ec1818;
+    padding: 0 20%;
+    margin: 15px 0;
+    text-align: justify;
+}
+/*TEXTO*/
+.header-txt3 p{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 20%;
+    margin: 15px 0;
+    text-align: justify;
+}
+.slider-box{
+    width: 700px;
+    height: auto;
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 100%;
+   
+}
+
+@keyframes slide {
+   0%{margin-left: 0;} 
+   20%{margin-left: 0;} 
+
+   25%{margin-left: -100%;} 
+   45%{margin-left: -100%;} 
+   
+   50%{margin-left: -200%;} 
+   70%{margin-left: -200%;} 
+   
+   75%{margin-left: -300%;} 
+   100%{margin-left: -300%;} 
+}
+
+@media(max-width:991px){
+    body5{
+        padding: 30px;
+    }
+    .slider-box{
+        width: 100%;
+    }
+}
